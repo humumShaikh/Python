@@ -10,9 +10,9 @@ class Vehicle:                                    #base class as vehicle
         print("Model : " , self.model)
         print("Year : " , self.year)
 
-class Car(Vehicle):
+class Car(Vehicle):                                            #derived class Car , parent class - vehicle
 
-    def __init__(self , make , model , year , num_doors):
+    def __init__(self , make , model , year , num_doors):        #derived class constructor
         super().__init__(make , model , year)
         self.num_doors = num_doors
     
