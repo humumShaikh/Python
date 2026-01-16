@@ -16,14 +16,14 @@ class Car(Vehicle):                                            #derived class Ca
         super().__init__(make , model , year)
         self.num_doors = num_doors
     
-    def display_info(self):
+    def display_info(self):                                        #derived class method
         print("Make : " , self.make)
         print("Model : " , self.model)
         print("Year : " , self.year)
         print("Num Doors : " , self.num_doors)
 
 
-v =  Vehicle("Rover" , "SUV" , 2012)
-c = Car("Prius" , "Sedan" , 2020 , 4)
+v =  Vehicle("Rover" , "SUV" , 2012)                            #making object v of parent class vehicle
+c = Car("Prius" , "Sedan" , 2020 , 4)                            #making object c of derived class car
 v.display_info()
 c.display_info()
