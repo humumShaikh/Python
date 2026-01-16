@@ -5,7 +5,7 @@ class Vehicle:                                    #base class as vehicle
         self.model = model
         self.year = year
     
-    def display_info(self):
+    def display_info(self):                            #base class method display_info
         print("Make : " , self.make)
         print("Model : " , self.model)
         print("Year : " , self.year)
