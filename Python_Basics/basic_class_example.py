@@ -1,7 +1,7 @@
-class Student:
+class Student:                                    #class named Student
 
-    def __init__(self , name , age , id):
-        self.name = name
+    def __init__(self , name , age , id):            #class constructor
+        self.name = name                             #self is the 'this' pointer here in python         
         self.age = age
         self.id = id
 
