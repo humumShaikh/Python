@@ -1,7 +1,7 @@
-class Vehicle:
+class Vehicle:                                    #base class as vehicle
 
-    def __init__(self , make , model , year):
-        self.make = make
+    def __init__(self , make , model , year):        #class constructor
+        self.make = make                                #parameter initialization    
         self.model = model
         self.year = year
     
